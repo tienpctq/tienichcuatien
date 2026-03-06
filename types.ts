@@ -215,7 +215,7 @@ export const VOICE_OPTIONS: VoiceOption[] = [
     label: 'Puck (Nam, Ấm áp)', 
     gender: 'Nam',
     tone: 'Nhẹ nhàng, Truyền cảm',
-    description: 'Giọng nam trầm ấm, phát âm cực chuẩn.',
+    description: 'Giọng nam trầm ấm, phát âm cực chuẩn. Lý tưởng cho nội dung tổng quát.',
     languages: ['vi', 'en'],
     recommendedFor: ['vi']
   },
@@ -224,9 +224,63 @@ export const VOICE_OPTIONS: VoiceOption[] = [
     label: 'Charon (Nam, Đĩnh đạc)', 
     gender: 'Nam',
     tone: 'Trầm, Chuyên nghiệp',
-    description: 'Giọng nam dày, uy tín. Rất tốt cho tin tức.',
+    description: 'Giọng nam dày, uy tín. Rất tốt cho tin tức và báo cáo.',
     languages: ['vi', 'en'],
-    recommendedFor: ['bao-cao']
+    recommendedFor: ['vi', 'en']
+  },
+  { 
+    name: 'Enceladus', 
+    label: 'Enceladus (Nam, Hùng hồn)', 
+    gender: 'Nam',
+    tone: 'Mạnh mẽ, Dứt khoát',
+    description: 'Giọng nam lực, mạnh mẽ. Phù hợp thuyết trình và diễn đàn.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
+  },
+  { 
+    name: 'Iapetus', 
+    label: 'Iapetus (Nam, Trầm lắng)', 
+    gender: 'Nam',
+    tone: 'Trầm, Sâu lắng',
+    description: 'Giọng nam rất trầm, sang trọng. Tốt cho tường thuật và báo cáo dài.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
+  },
+  { 
+    name: 'Algieba', 
+    label: 'Algieba (Nam, Rõ ràng)', 
+    gender: 'Nam',
+    tone: 'Rõ ràng, Khúc chiết',
+    description: 'Giọng nam trong sáng, dễ nghe. Lý tưởng cho đào tạo và hướng dẫn.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
+  },
+  { 
+    name: 'Aoede', 
+    label: 'Aoede (Nữ, Trữ tình)', 
+    gender: 'Nữ',
+    tone: 'Nhẹ nhàng, Trữ tình',
+    description: 'Giọng nữ dịu dàng, trữ tình. Phù hợp thuyết trình và đào tạo.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
+  },
+  { 
+    name: 'Achernar', 
+    label: 'Achernar (Nữ, Mạnh mẽ)', 
+    gender: 'Nữ',
+    tone: 'Mạnh mẽ, Rõ nét',
+    description: 'Giọng nữ rõ ràng, có lực. Rất tốt cho báo cáo chuyên nghiệp.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
+  },
+  { 
+    name: 'Laomedeia', 
+    label: 'Laomedeia (Nữ, Tươi sáng)', 
+    gender: 'Nữ',
+    tone: 'Tươi sáng, Thân thiện',
+    description: 'Giọng nữ tươi tắn, thân thiện. Phù hợp nội dung truyền thông.',
+    languages: ['vi', 'en'],
+    recommendedFor: ['vi']
   },
   { 
     name: 'Kore', 
